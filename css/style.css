@@ -5,6 +5,7 @@ body {
     font-weight: 250;
     font-style: normal;
     margin: 0;   
+    padding: 0;
     background-color: #ef8f91; 
 }
 
@@ -208,13 +209,12 @@ dl {
 dl dt{
     font-weight: 500;
 }
-dl dd{}
 
 /* Project Section */
 .three-col {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 3fr); 
+  grid-template-columns: repeat(3, 1fr); 
   padding: 10px;
     gap: 20px; 
 }
